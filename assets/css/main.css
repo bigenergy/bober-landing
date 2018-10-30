@@ -34,23 +34,39 @@ body {
     max-width: 100%;
     height: auto;
 }
-
-.nav-link {
+.footer-menu {
+    color: #fff;
+}
+.footer-menu:hover {
+    /*color: #4f3c2fff;*/
+}
+.nav-link-menu {
     margin-top: 55px;
     color: #4f3c2fff;
 }
 @media (max-width: 767px) {
+
+    .crafting-line {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        color: #4f3c2f;
+    }
+    .crafting-number {
+        font-size: 11px;
+        color: #5cb544ff;
+    }
     .img-adaptive {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
     }
-    .nav-item {
+
+    .nav-item-menu {
         font-size: 24px;
         margin-top: 0px;
     }
-    .nav-link {
+    .nav-link-menu {
         margin-top: 5px;
         color: #4f3c2fff;
     }
@@ -65,19 +81,28 @@ body {
     }
 }
 
-.nav-item {
+.nav-item-menu {
     margin-left: 15px;
 }
 .rightlink {
     margin-top: 31px;
 }
 
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
+    max-width: 45em;
+    margin: auto auto 1em;
+    box-sizing: border-box;
 
-.nav-link .social {
-    margin-left: 5px;
-    margin-top: 20px;
+    line-height: 1.5;
+    text-align: center;
 }
+
+
 .padding {
     min-height: 100%;
     min-height: 100vh;
@@ -146,6 +171,63 @@ i.fabmail {
     width: 100%;
     height: 100%;
     padding: 20px;
+}
+
+.crafting-number {
+    font-size: 38px;
+    color: #5cb544ff;
+}
+
+.crafting-line {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #4f3c2f;
+}
+
+.form-control::-webkit-input-placeholder {  color: #4f3c2f; font-weight: 400;}  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder {  color: #4f3c2f; font-weight: 400;}  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder {  color: #4f3c2f; font-weight: 400;}  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder {  color: #4f3c2f; font-weight: 400;}  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder {  color: #4f3c2f; font-weight: 400;}  /* Microsoft Edge */
+
+.submint-btn {
+    background-color: #5cb544ff;
+    width: 254px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+.form-control:valid {
+    background-color:  #fffbf1ff!important;
+}
+
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-left: 20px;
+    background-color: #4f3c2f;
+}
+.carousel-indicators .active {
+    background-color: #5cb544ff;
+}
+
+.carousel-item {
+    margin-bottom: 100px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #4f3c2f;
+}
+.topnav-right {
+    float: right;
 }
 
 

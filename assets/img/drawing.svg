@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="7.00001mm"
+   height="6mm"
+   viewBox="0 0 7.00001 6"
+   version="1.1"
+   id="svg2092"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="drawing.svg">
+  <defs
+     id="defs2086" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="62.72938"
+     inkscape:cy="31.400858"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1272"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2089">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-291)">
+    <g
+       style="fill:#ffffff"
+       id="g6670"
+       transform="matrix(-0.32632848,0,0,0.32522067,130.79361,625.82223)"
+       inkscape:export-filename="D:\designer\Новая папка\БОБРОВ\Макет\Maket.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6666"
+         d="m 394.15402,-1023.4354 c 0.50677,2.8461 -1.2631,6.0017 -4.41289,6.3634 -1.10564,0.1269 -2.19741,-0.1612 -3.09724,-0.8047 -0.89984,-0.6436 -1.61078,-1.7572 -1.59193,-3.0572 l 2.84402,0.042 c -0.004,0.3064 0.10778,0.4924 0.40206,0.7029 0.29418,0.2104 0.76582,0.3327 1.11998,0.2921 1.33723,-0.1536 2.17879,-1.6734 1.93546,-3.0405 -0.35899,-2.0163 -2.58447,-3.2132 -4.59617,-2.7797 -2.67736,0.577 -4.22297,3.5163 -3.5856,6.1689 0.63384,2.6377 3.16652,4.5188 5.89865,4.5849 l -0.0673,2.8417 c -3.97902,-0.096 -7.63968,-2.7829 -8.59615,-6.7628 -0.99184,-4.1276 1.39941,-8.6756 5.75025,-9.6132 3.48677,-0.7514 7.33096,1.3215 7.99688,5.0625 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#5cb544;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.8440001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <rect
+         y="-1014.9562"
+         x="388.89716"
+         height="2.828125"
+         width="10.765624"
+         id="rect6668"
+         style="opacity:1;fill:#5cb544;fill-opacity:1;stroke:none;stroke-width:3.2179451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    </g>
+  </g>
+</svg>

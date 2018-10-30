@@ -13,7 +13,6 @@
   <link rel="stylesheet" href="assets/css/jquery.fullpage.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
   
 </head>
@@ -27,15 +26,15 @@
 
 
 <div class="section section1 tab-base">
-  <!-- The video -->
-  <video autoplay muted loop id="myVideo">
+  <div class="vidbg">
+  <video id="myVideo" loop muted data-autoplay>
     <source src="assets/bober.mp4" type="video/mp4">
+    <!--<source src="imgs/flowers.webm" type="video/webm">-->
   </video>
-  <div class="overlay">
-    <h1>Heading</h1>
-    <p>Lorem ipsum...</p>
+  <div class="layer">
+    <h1 class="layer-text text-center">КУХНИ ИЗ МАССИВА<br><img class="img-ico" src="assets/img/drawing-flip.svg"> ПО ЦЕНЕ МДФ <img class="img-ico" src="assets/img/drawing.svg"></h1>
   </div>
-
+  </div>
 </div>
 
     
@@ -88,7 +87,7 @@
   <div class="inner cover">
     <div class="row">
       <div class="col-sm">
-        <h1 class="cover-heading maincolor">О КОМПАНИИ <img src="assets/img/drawing.svg"></h1>
+        <h1 class="cover-heading maincolor">О КОМПАНИИ <img class="img-ico" src="assets/img/drawing.svg"></h1>
         <br>
         <p class="sans">"БОБРОВ кухни" - это 10 лет работы над сложными и большими заказами.<br>
           Отличное качество  в сочетании с ценой делает такой продут по истине уникальным. Изготавливаем кухни с использованием крашеных фасадов, фасадов из Акрилового пластика, фасадов окутанных плёнкой ПВХ. Выполняем работы в комплексе.</p>
@@ -114,7 +113,7 @@
           <div class="inner cover centered">
             <div class="row">
               <div class="col-sm">
-                <h1 class="cover-heading text-white"><img src="assets/img/drawing-flip.svg"> МЫ ИЗГОТАВЛИВАЕМ</h1>
+                <h1 class="cover-heading text-white"><img class="img-ico" src="assets/img/drawing-flip.svg"> МЫ ИЗГОТАВЛИВАЕМ</h1>
               </div>
               <div class="col-sm">
                 <p class="sans text-white">Кухoнную мебель, гардеробные, детские,<br> шкафы купе, тумбы Комплексные заказы.</p>
@@ -124,96 +123,48 @@
         </div>
       </div>
     </div>
-      <div class="tcarouselcont">
-        <div id="tcarousel" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="item" data-b="1">
-              <img src="http://placehold.it/1140x500/ff9320&text=1">
-            </div>
-            <div class="item active" data-b="2">
-              <img src="http://placehold.it/1140x500/c6363c&text=2">
-            </div>
-            <div class="item" data-b="3">
-              <img src="http://placehold.it/1140x500/647291&text=3">
-            </div>
-          </div>
-          <a class="left carousel-control" href="#tcarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right carousel-control" href="#tcarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-          <ol class="carousel-indicators">
-            <li data-target="#tcarousel" data-slide-to="0" class=""></li>
-            <li data-target="#tcarousel" data-slide-to="1" class="active"></li>
-            <li data-target="#tcarousel" data-slide-to="2" class=""></li>
-          </ol>
-        </div>
-      </div>
-      <style>
-        .tcarouselcont
-        {
-          width: 100%;
-          height: 500px;
-          overflow: hidden;
-        }
 
-        #tcarousel > .carousel-inner
-        {
-          width: 999999px;
-        }
 
-        #tcarousel > .carousel-inner > .item
-        {
-          width: 1140px;
-          display: inline-block;
-        }
-
-        #tcarousel > .carousel-inner > .item:nth-child(1)
-        {
-          margin-left: -750px;
-        }
-      </style>
 
     </div>
     
     <div style="background-image: url(assets/img/bg.png)" class="section tab-base padding">
       <div class="container">
         <div class="inner cover">
-          <h1 class="cover-heading maincolor">ПРОЦЕСС ПРОИЗВОДСТВА<br>МЕБЕЛИ НАЧИНАЕТСЯ <img src="assets/img/drawing.svg"></h1>
+          <h1 class="cover-heading maincolor">ПРОЦЕСС ПРОИЗВОДСТВА<br>МЕБЕЛИ НАЧИНАЕТСЯ <img class="img-ico" src="assets/img/drawing.svg"></h1>
           <br>
           <div class="container">
             <div class="row align-items-start">
               <div class="col">
-                <span class="crafting-number">1 <span class="crafting-line"> звонок клиента</span></span>
+                <span class="crafting-number">1</span> <span class="crafting-line"> звонок клиента</span>
               </div>
               <div class="col">
-                <span class="crafting-number">4 <span class="crafting-line"> согласование с заказчиком</span></span>
+                <span class="crafting-number">4</span> <span class="crafting-line"> согласование с заказчиком</span>
               </div>
               <div class="col">
-                <span class="crafting-number">7 <span class="crafting-line"> производство мебели</span></span>
+                <span class="crafting-number">7</span> <span class="crafting-line"> производство мебели</span>
               </div>
             </div>
             <div class="row align-items-center">
               <div class="col">
-                <span class="crafting-number">2 <span class="crafting-line"> вызов дизайнера на замеры</span></span>
+                <span class="crafting-number">2</span> <span class="crafting-line"> вызов дизайнера на замеры</span>
               </div>
               <div class="col">
-                <span class="crafting-number">5 <span class="crafting-line"> расчёт стоимости</span></span>
+                <span class="crafting-number">5</span> <span class="crafting-line"> расчёт стоимости</span>
               </div>
               <div class="col">
-                <span class="crafting-number">8 <span class="crafting-line"> оплата стоимости, монтаж</span></span>
+                <span class="crafting-number">8</span> <span class="crafting-line"> оплата стоимости, монтаж</span>
               </div>
             </div>
             <div class="row align-items-end">
               <div class="col">
-                <span class="crafting-number">3 <span class="crafting-line"> работа с проектом</span></span>
+                <span class="crafting-number">3</span> <span class="crafting-line"> работа с проектом</span>
               </div>
               <div class="col">
-                <span class="crafting-number">6 <span class="crafting-line"> договор и предоплата</span></span>
+                <span class="crafting-number">6</span> <span class="crafting-line"> договор и предоплата</span>
               </div>
               <div class="col">
-                <span class="crafting-number">9 <span class="crafting-line"> подписание акта приемки</span></span>
+                <span class="crafting-number">9</span> <span class="crafting-line"> подписание акта приемки</span>
               </div>
             </div>
             <br>
@@ -228,7 +179,7 @@
   <div style="background-image: url(assets/img/bg-2.png); background-size: cover;" class="section tab-base padding">
     <div class="container">
       <div class="inner cover">
-        <h1 class="cover-heading text-white">ЗАПОЛНИТЕ ЗАЯВКУ<br>И МЫ СВЯЖЕМСЯ С ВАМИ <img src="assets/img/drawing.svg"></h1>
+        <h1 class="cover-heading text-white">ЗАПОЛНИТЕ ЗАЯВКУ<br>И МЫ СВЯЖЕМСЯ С ВАМИ <img class="img-ico" src="assets/img/drawing.svg"></h1>
         <br>
         <form class="sans">
           <div class="form-row">
@@ -256,7 +207,7 @@
   <div style="background-image: url(assets/img/bg.png)" class="section tab-base padding">
     <div class="container">
       <div class="inner cover">
-        <h1 class="cover-heading maincolor">НАШИ НОВИНКИ И АКЦИИ <img src="assets/img/drawing.svg"></h1>
+        <h1 class="cover-heading maincolor">НАШИ НОВИНКИ И АКЦИИ <img class="img-ico" src="assets/img/drawing.svg"></h1>
         <br>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -327,7 +278,7 @@
   <div style="background-image: url(assets/img/bg-comments.svg); background-size: cover;" class="section tab-base padding">
     <div class="container">
       <div class="inner cover">
-        <h1 class="cover-heading text-white"><img src="assets/img/drawing-flip.svg"> ОТЗЫВЫ</h1>
+        <h1 class="cover-heading text-white"><img class="img-ico" src="assets/img/drawing-flip.svg"> ОТЗЫВЫ</h1>
         <br>
         <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -440,17 +391,6 @@
 <script src="assets/js/bootstrap.min.js "></script>
 <script src="assets/js/jquery.fullpage.min.js "></script>
 <script src="assets/js/main.js "></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script>
-    $('.variable-width').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        centerMode: true,
-        variableWidth: true
-    });
 
-</script>
 </body>
 </html>

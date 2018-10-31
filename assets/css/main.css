@@ -12,6 +12,9 @@ hr.crafting {
     color: #4f3c2f;
 
 }
+a:hover {
+    color: #5cb544;
+}
 .about-text {
     font-size: 20px;
 }
@@ -36,6 +39,13 @@ hr.crafting {
 .btn-contact:hover {
     border: 2px solid #5cb544;
     background-color: #5cb544;
+}
+.btn-contact-send {
+    background-color: #5cb544;
+}
+.btn-contact-send:hover {
+    border: 2px solid #4f3c2f;
+    background-color: #4f3c2f;
 }
 .btn-sm {
     /*margin-top: 2px;*/
@@ -284,7 +294,6 @@ i.fabmail {
 .form-control::-ms-input-placeholder {  color: #4f3c2f; font-weight: 400;}  /* Microsoft Edge */
 
 .submint-btn {
-    background-color: #5cb544ff;
     width: 254px;
     height: 60px;
     font-size: 24px;

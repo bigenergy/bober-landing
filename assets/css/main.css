@@ -10,9 +10,26 @@ body {
     color: #4f3c2f;
 
 }
-
+.about-text {
+    font-size: 20px;
+}
+.about-inst {
+    color: #4f3c2f;
+    font-size: 25px;
+}
+.about-inst:hover {
+    color: #5cb544;
+}
+.about-h1 {
+    margin-bottom: 20px;
+    color: #4f3c2f;
+}
+.about-mrg {
+    margin-top: 20px;
+}
 .navbar {
-    min-height: 118px;
+    min-height: 115px;
+    font-size: 18px;
 }
 .navbar-default {
     background-color: #fffbf1;

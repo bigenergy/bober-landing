@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="15.839192"
-     inkscape:cx="9.358232"
+     inkscape:cx="-2.0059841"
      inkscape:cy="14.778268"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,22 +62,16 @@
          id="path8181-8"
          d="m 135.82227,106.75586 c -2.01785,0 -3.65821,1.64035 -3.65821,3.6582 0,2.01785 1.64036,3.65821 3.65821,3.65821 2.01784,0 3.6582,-1.64036 3.6582,-3.65821 0,-2.01785 -1.64036,-3.6582 -3.6582,-3.6582 z m 0,0.44336 c 1.77784,0 3.21484,1.437 3.21484,3.21484 0,1.77785 -1.437,3.21289 -3.21484,3.21289 -1.77785,0 -3.21485,-1.43504 -3.21485,-3.21289 0,-1.77784 1.437,-3.21484 3.21485,-3.21484 z"
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#5cb544;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.44408986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <flowRoot
-         inkscape:export-ydpi="96"
-         inkscape:export-xdpi="96"
-         inkscape:export-filename="D:\designer\Новая папка\БОБРОВ\Макет\Maket.png"
+      <g
+         aria-label=""
          transform="matrix(0.15618255,0,0,0.15618255,-49.048993,118.06917)"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.32900047px;line-height:19.85000038px;font-family:Font Awesome 5 Regular;-inkscape-font-specification:Font Awesome 5 Regular;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#5cb544;fill-opacity:1;stroke:none"
-         id="flowRoot8157-5"
-         xml:space="preserve"><flowRegion
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Font Awesome 5 Regular;-inkscape-font-specification:Font Awesome 5 Regular;fill:#5cb544;fill-opacity:1"
-           id="flowRegion8159-0"><rect
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Font Awesome 5 Regular;-inkscape-font-specification:Font Awesome 5 Regular;fill:#5cb544;fill-opacity:1"
-             y="-58.943935"
-             x="1170.2617"
-             height="38.183765"
-             width="62.225395"
-             id="rect8161-6" /></flowRegion><flowPara
-           id="flowPara8163-1"></flowPara></flowRoot>    </g>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.32900047px;line-height:19.85000038px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#5cb544;fill-opacity:1;stroke:none"
+         id="flowRoot8157-5">
+        <path
+           d="m 1188.164,-49.018359 c 0,2.465061 -2.0105,4.475571 -4.4756,4.475571 -2.465,0 -4.4755,-2.01051 -4.4755,-4.475571 0,-2.465061 2.0105,-4.475572 4.4755,-4.475572 2.4651,0 4.4756,2.010511 4.4756,4.475572 z m 2.4126,0 c 0,-3.811229 -3.0769,-6.888184 -6.8882,-6.888184 -3.8112,0 -6.8882,3.076955 -6.8882,6.888184 0,3.811229 3.077,6.888184 6.8882,6.888184 3.8113,0 6.8882,-3.076955 6.8882,-6.888184 z m 1.8881,-7.167908 c 0,-0.891617 -0.7167,-1.608408 -1.6084,-1.608408 -0.8916,0 -1.6084,0.716791 -1.6084,1.608408 0,0.891618 0.7168,1.608409 1.6084,1.608409 0.8917,0 1.6084,-0.716791 1.6084,-1.608409 z m -8.7763,-3.846194 c 1.9581,0 6.1539,-0.157344 7.9197,0.541964 0.6119,0.244758 1.0664,0.541964 1.5385,1.013997 0.472,0.472032 0.7692,0.926583 1.014,1.538477 0.6993,1.765753 0.5419,5.961601 0.5419,7.919664 0,1.958062 0.1574,6.153911 -0.5419,7.919663 -0.2448,0.611895 -0.542,1.066445 -1.014,1.538478 -0.4721,0.472033 -0.9266,0.769239 -1.5385,1.013997 -1.7658,0.699308 -5.9616,0.541964 -7.9197,0.541964 -1.958,0 -6.1539,0.157344 -7.9196,-0.541964 -0.6119,-0.244758 -1.0665,-0.541964 -1.5385,-1.013997 -0.472,-0.472033 -0.7692,-0.926583 -1.014,-1.538478 -0.6993,-1.765752 -0.542,-5.961601 -0.542,-7.919663 0,-1.958063 -0.1573,-6.153911 0.542,-7.919664 0.2448,-0.611894 0.542,-1.066445 1.014,-1.538477 0.472,-0.472033 0.9266,-0.769239 1.5385,-1.013997 1.7657,-0.699308 5.9616,-0.541964 7.9196,-0.541964 z m 13.4267,11.014102 c 0,-1.853166 0.017,-3.68885 -0.087,-5.542016 -0.1049,-2.150373 -0.5944,-4.055987 -2.1678,-5.62943 -1.5735,-1.573443 -3.4791,-2.062959 -5.6295,-2.167855 -1.8531,-0.104896 -3.6888,-0.08741 -5.542,-0.08741 -1.8531,0 -3.6888,-0.01748 -5.542,0.08741 -2.1504,0.104896 -4.056,0.594412 -5.6294,2.167855 -1.5735,1.573443 -2.063,3.479057 -2.1679,5.62943 -0.1049,1.853166 -0.087,3.68885 -0.087,5.542016 0,1.853166 -0.017,3.68885 0.087,5.542016 0.1049,2.150372 0.5944,4.055987 2.1679,5.62943 1.5734,1.573443 3.479,2.062959 5.6294,2.167855 1.8532,0.104896 3.6889,0.08741 5.542,0.08741 1.8532,0 3.6889,0.01748 5.542,-0.08741 2.1504,-0.104896 4.056,-0.594412 5.6295,-2.167855 1.5734,-1.573443 2.0629,-3.479058 2.1678,-5.62943 0.1049,-1.853166 0.087,-3.68885 0.087,-5.542016 z"
+           style=""
+           id="path4488" />
+      </g>
+    </g>
   </g>
 </svg>

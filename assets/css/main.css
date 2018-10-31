@@ -10,7 +10,9 @@ hr.crafting {
 .sans {
     font-family: 'Open Sans', sans-serif;
     color: #4f3c2f;
-
+}
+.oswald {
+    font-family: 'Oswald', sans-serif;
 }
 a:hover {
     color: #5cb544;

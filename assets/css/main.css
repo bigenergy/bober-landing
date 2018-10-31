@@ -304,23 +304,21 @@ i.fabmail {
 .form-control:valid {
     background-color:  #fffbf1ff!important;
 }
-
-
 .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
     margin-left: 20px;
+}
+.carousel-indicators-promo li {
     background-color: #4f3c2f;
 }
 .carousel-indicators .active {
     background-color: #5cb544ff;
 }
-
 .carousel-item {
     margin-bottom: 60px;
 }
-
 .footer {
     position: absolute;
     bottom: 0;

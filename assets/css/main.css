@@ -4,7 +4,9 @@
 body {
     font-family: 'Oswald', sans-serif;
 }
-
+hr.crafting {
+    border: 2px solid #4f3c2f;
+}
 .sans {
     font-family: 'Open Sans', sans-serif;
     color: #4f3c2f;
@@ -48,6 +50,10 @@ body {
 }
 .crafting-mrg {
     margin-left: 25px;
+}
+.crafting-h1 {
+    color: #4f3c2f;
+    font-size: 40px;
 }
 
 .number {

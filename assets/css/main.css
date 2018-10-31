@@ -38,6 +38,7 @@ a:hover {
 .btn-contact {
     border: 2px solid #4f3c2f;
     color: #4f3c2f;
+    margin-top: 12px;
 }
 .btn-contact:hover {
     border: 2px solid #5cb544;
@@ -72,6 +73,7 @@ a:hover {
 .number {
     color: #4f3c2f;
     font-size: 18px;
+    margin-bottom: 17px;
 }
 .navbar {
     min-height: 115px;
@@ -177,7 +179,7 @@ a:hover {
     margin-left: 15px;
 }
 .rightlink {
-    margin-top: 31px;
+    margin-top: 20px;
 }
 
 .overlay {

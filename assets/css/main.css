@@ -105,9 +105,6 @@ a:hover {
 .footer-menu {
     color: #fff;
 }
-.footer-menu:hover {
-    /*color: #4f3c2fff;*/
-}
 .nav-link-menu {
     margin-top: 55px;
     color: #4f3c2fff;
@@ -242,15 +239,10 @@ i.fabmail {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* Make video to at least 100% wide and tall */
     min-width: 100%;
     min-height: 100%;
-
-    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
     width: auto;
     height: auto;
-
-    /* Center the video */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -276,18 +268,6 @@ i.fabmail {
     position:absolute;
     box-sizing:border-box;
 }
-
-/* Add some content at the bottom of the video/page */
-/*.content {*/
-    /*position: fixed;*/
-    /*bottom: 0;*/
-    /*background: rgba(0, 0, 0, 0.5);*/
-    /*color: #f1f1f1;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*padding: 20px;*/
-/*}*/
-
 .crafting-number {
     font-size: 38px;
     color: #5cb544ff;
@@ -298,13 +278,11 @@ i.fabmail {
     margin-left: 14px;
     color: #4f3c2f;
 }
-
 .form-control::-webkit-input-placeholder {  color: #4f3c2f; font-weight: 400;}  /* WebKit, Blink, Edge */
 .form-control:-moz-placeholder {  color: #4f3c2f; font-weight: 400;}  /* Mozilla Firefox 4 to 18 */
 .form-control::-moz-placeholder {  color: #4f3c2f; font-weight: 400;}  /* Mozilla Firefox 19+ */
 .form-control:-ms-input-placeholder {  color: #4f3c2f; font-weight: 400;}  /* Internet Explorer 10-11 */
 .form-control::-ms-input-placeholder {  color: #4f3c2f; font-weight: 400;}  /* Microsoft Edge */
-
 .submint-btn {
     width: 254px;
     height: 60px;
@@ -333,9 +311,8 @@ i.fabmail {
     position: absolute;
     bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
     height: 100px;
-    line-height: 60px; /* Vertically center the text there */
+    line-height: 60px;
     background-color: #4f3c2f;
 }
 .topnav-right {
@@ -426,8 +403,6 @@ a.footericons:hover {
     max-width: 10% !important;
     max-height:20% !important;
     opacity: 1;
-
-
 }
 
 .carousel{
@@ -442,15 +417,21 @@ a.footericons:hover {
 
 }
 
-/* the slides */
 .slick-slide {
     margin: 0 0px;
 }
-/* the parent */
 .slick-list {
     margin: 0 0px;
 }
 
 .slick-center {
     width: 1200px;
+}
+
+.slick-prev, .slick-next {
+    width:60px;
+    height:34px
+}
+.slick-prev:before, .slick-next:before {
+    content:"";
 }

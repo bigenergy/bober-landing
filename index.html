@@ -121,10 +121,10 @@
       </div>
 
     </div>
-    <div class="">
+
       <div class="slider">
         <span><img width="1220px" height="720px" src="assets/img/slider-1.png"></span>
-        <span><img width="620px" height="720px" src="assets/img/slider-2.png"></span>
+        <span><img src="assets/img/slider-2.png"></span>
         <span><img width="620px" height="720px" src="assets/img/slider-2.png"></span>
         <span><img width="520px" height="720px" src="assets/img/slider-1.png"></span>
         <span><img width="520px" height="720px" src="assets/img/slider-1.png"></span>
@@ -132,7 +132,15 @@
 
 
       </div>
-    </div>
+      <div id="arrows">
+        <div class="slick-next">
+          <img src="http://dummyimage.com/60x16:9/4b4b4b/fff" alt="">
+        </div>
+        <div class="slick-prev">
+          <img src="http://dummyimage.com/60x16:9/4b4b4b/fff" alt="">
+        </div>
+      </div>
+
 
 
 
@@ -401,8 +409,9 @@
             centerMode: true,
             centerPadding: '0px',
             slidesToShow: 3,
-            dots:true,
             adaptiveHeight: true,
+            variableWidth: true,
+            appendArrows: $('#arrows'),
             responsive: [
                 {
                     breakpoint: 768,
@@ -423,6 +432,12 @@
                     }
                 }
             ]
+        });
+        $('.slick-next').on('click', function () {
+            slick.slickNext();
+        });
+        $('.slick-prev').on('click', function () {
+            slick.slickPrev();
         });
     });
 </script>

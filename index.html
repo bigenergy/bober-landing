@@ -14,8 +14,10 @@
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/slick-theme.css">
 
-
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/slick.min.js"></script>
 </head>
 
 <body>
@@ -91,7 +93,10 @@
         </p>
         <p class="about-mrg sans about-text">Мы в соц. сетях: <a href="#"><i class="fab fa-instagram about-inst"></i></a></p>
       </div>
-      <div class="col-sm"><img class="img-adaptive" src="assets/img/bober.svg"></div>
+      <div class="col-sm">
+        <h1 class="cover-heading about-h1">&nbsp;</h1>
+        <img class="img-adaptive" src="assets/img/bober.svg">
+      </div>
     </div>
 
   </div>
@@ -122,24 +127,25 @@
 
     </div>
 
-      <div class="slider">
-        <span><img width="1220px" height="720px" src="assets/img/slider-1.png"></span>
-        <span><img src="assets/img/slider-2.png"></span>
-        <span><img width="620px" height="720px" src="assets/img/slider-2.png"></span>
-        <span><img width="520px" height="720px" src="assets/img/slider-1.png"></span>
-        <span><img width="520px" height="720px" src="assets/img/slider-1.png"></span>
-        <span><img width="520px" height="720px" src="assets/img/slider-1.png"></span>
+
+
+      <div class="slick-slider" style="height: 100%; width: 100%;">
+        <div><img width="1220px" height="100%" src="assets/img/slider-1.png"></div>
+        <div><img width="1220px" height="100%" src="assets/img/slider-2.png"></div>
+        <div><img width="1220px" height="100%" src="assets/img/slider-1.png"></div>
+        <div><img width="1220px" height="100%" src="assets/img/slider-2.png"></div>
+        <div><img width="1220px" height="100%" src="assets/img/slider-1.png"></div>
+        <div><img width="1220px" height="100%" src="assets/img/slider-2.png"></div>
 
 
       </div>
-      <div id="arrows">
-        <div class="slick-next">
-          <img src="http://dummyimage.com/60x16:9/4b4b4b/fff" alt="">
-        </div>
-        <div class="slick-prev">
-          <img src="http://dummyimage.com/60x16:9/4b4b4b/fff" alt="">
-        </div>
-      </div>
+      <!--<div class="slick-slider" style="height: 100%; width: 100%;">-->
+        <!--<div class="slide" style="background-image: url('assets/img/slider-2.png'); background-size: cover; background-repeate: no-repeat; height: 100%;"></div>-->
+        <!--<div class="slide" style="background-image: url('assets/img/slider-2.png'); background-size: cover; background-repeate: no-repeat; height: 100%;"></div>-->
+        <!--<div class="slide" style="background-image: url('slider-1.png'); background-size: cover; background-repeate: no-repeat; height: 100%;"></div>-->
+        <!--<div class="slide" style="background-image: url('slider-2.png'); background-size: cover; background-repeate: no-repeat; height: 100%;"></div>-->
+        <!--<div class="slide" style="background-image: url('slider-1.png'); background-size: cover; background-repeate: no-repeat; height: 100%;"></div>-->
+      <!--</div>-->
 
 
 
@@ -397,49 +403,19 @@
   
 </div>
 
-<script src="assets/js/jquery-3.3.1.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js "></script>
 <script src="assets/js/jquery.fullpage.min.js "></script>
 <script src="assets/js/main.js "></script>
-<script type="text/javascript" src="assets/js/slick.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('.slider').slick({
-            centerMode: true,
-            centerPadding: '0px',
+<script>
+    (function($){
+        'use strict';
+
+        $('.slick-slider').slick({
             slidesToShow: 3,
-            adaptiveHeight: true,
-            variableWidth: true,
-            appendArrows: $('#arrows'),
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
-        $('.slick-next').on('click', function () {
-            slick.slickNext();
-        });
-        $('.slick-prev').on('click', function () {
-            slick.slickPrev();
-        });
-    });
+        })
+    })(jQuery)
 </script>
+
 </body>
 </html>
